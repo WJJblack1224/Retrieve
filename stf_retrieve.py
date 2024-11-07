@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 初始化模型
-model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+model = SentenceTransformer('shibing624/text2vec-base-chinese')
 embedding_dim = 384
 
 # 載入參考資料，返回一個字典，key為檔案名稱，value為PDF檔內容的文本
